@@ -32,24 +32,9 @@ header-includes:
 
 # Introducción
 
-<!-- Cambio histórico de linea de costa -->
+Según @ahmad2012gis la costa cambia muchooooooooooooooooo. Otros autores aseguran que la costa es estable eternamente, y que nada cambia, ja ja ja [@sun2007fast; @bishop1995drainage]
 
-<!-- Sedimentos -->
-
-<!-- Estudio de perfil de playa -->
-
-Geomorfológicamente, el dominio litoral se estudia desde distintas perspectivas..........
-
-Alternativa a) Localmente, el litoral se estudia...
-
-Alternativa b) De los estudios comúnmente realizados en el litoral, se citan los de cambios en la línea de costa [@]... También, la caracterización de sedimentos del litoral y, concretamente, de la playa, es un enfoque bastante útil [@] También, los estudios de perfil de playa se utilizan 
-
-De acuerdo al tipo morfológico, el litoral dominicano comúnmente se puede clasificar en fangoso con o sin desarrollo de manglar [Santiago de la Fuente, tesis Cámara Artigas, Desarrollo Sostenible en RD] acantilada, de playa y de sistema laguna-isla barrera []
-
-Memoria geológica y el mapa de la costa de Najayo [@ejemplomapageoymemoria]
-
-
-![](geologico-50k.png)
+![Mi título](imagen_01.png)
 
 # Metodología
 

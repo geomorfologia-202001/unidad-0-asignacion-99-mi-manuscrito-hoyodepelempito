@@ -39,8 +39,17 @@
 \setcounter{secnumdepth}{3}
 
 
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
-\title{Mis hormigas\\
+\title{Mi playa\\
 Subtítulo\\
 Subtítulo  }
 
@@ -94,7 +103,7 @@ Subtítulo  }
             bookmarks=true,
             pdfauthor={Tali tali tali (Estudiante, Universidad Autónoma de Santo Domingo (UASD))},
              pdfkeywords = {palabra clave 1, palabra clave 2},  
-            pdftitle={Mis hormigas\\
+            pdftitle={Mi playa\\
 Subtítulo\\
 Subtítulo},
             colorlinks=true,
@@ -109,7 +118,8 @@ Subtítulo},
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{pdflscape} \newcommand{\blandscape}{\begin{landscape}} \newcommand{\elandscape}{\end{landscape}}
+\usepackage{pdflscape} \newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
 
 
 % add tightlist ----------
@@ -166,40 +176,60 @@ Subtítulo},
 \vskip 6.5pt
 
 
-\noindent  \hypertarget{introduccion}{%
-\section{Introducción}\label{introduccion}}
+\noindent  \section{Introducción}\label{introducciuxf3n}
+
+Geomorfológicamente, el dominio litoral se estudia desde distintas
+perspectivas\ldots{}\ldots{}\ldots{}.
+
+Alternativa a) Localmente, el litoral se estudia\ldots{}
+
+Alternativa b) De los estudios comúnmente realizados en el litoral, se
+citan los de cambios en la línea de costa {[}@{]}\ldots{} También, la
+caracterización de sedimentos del litoral y, concretamente, de la playa,
+es un enfoque bastante útil {[}@{]} También, los estudios de perfil de
+playa se utilizan
+
+De acuerdo al tipo morfológico, el litoral dominicano comúnmente se
+puede clasificar en fangoso con o sin desarrollo de manglar {[}Santiago
+de la Fuente, tesis Cámara Artigas, Desarrollo Sostenible en RD{]}
+acantilada, de playa y de sistema laguna-isla barrera {[}{]}
+
+Memoria geológica y el mapa de la costa de Najayo (Autor, 1111)
+
+\begin{figure}
+\centering
+\includegraphics{geologico-50k.png}
+\caption{}
+\end{figure}
+
+\section{Metodología}\label{metodologuxeda}
 
 \ldots
 
-\hypertarget{metodologia}{%
-\section{Metodología}\label{metodologia}}
+\section{Resultados}\label{resultados}
 
 \ldots
 
-\hypertarget{resultados}{%
-\section{Resultados}\label{resultados}}
+\section{Discusión}\label{discusiuxf3n}
+
+\section{Agradecimientos}\label{agradecimientos}
+
+\section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
 \ldots
 
-\hypertarget{discusion}{%
-\section{Discusión}\label{discusion}}
-
-\hypertarget{agradecimientos}{%
-\section{Agradecimientos}\label{agradecimientos}}
-
-\hypertarget{informacion-de-soporte}{%
-\section{Información de soporte}\label{informacion-de-soporte}}
-
-\ldots
-
-\hypertarget{script-reproducible}{%
 \section{\texorpdfstring{\emph{Script}
-reproducible}{Script reproducible}}\label{script-reproducible}}
+reproducible}{Script reproducible}}\label{script-reproducible}
 
 \ldots
 
-\hypertarget{referencias}{%
-\section{Referencias}\label{referencias}}
+\section*{Referencias}\label{referencias}
+\addcontentsline{toc}{section}{Referencias}
+
+\hypertarget{refs}{}
+\hypertarget{ref-ejemplomapageoymemoria}{}
+Autor. (1111). \emph{Mapa Geológico de mi Área y Memoria
+correspondiente}. Santo Domingo: Proyecto tal tal.
 
 
 
